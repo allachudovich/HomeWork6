@@ -171,7 +171,7 @@
 
 .top_menu {
     display: inline-flex;
-    padding-left: 133px;
+    padding-left: 132px;
 }
 
 .item {
@@ -553,14 +553,13 @@ h4 {
 }
 
 .right_menu {
-    display: block;
+    width: 176px;
     float: right;
     height: auto;
     margin-top: 18px;
 }
 
 .brand_menu {
-    width: 176px;
     height: 25px;
     -webkit-border-radius: 12px/12px 12px 13px 13px;
     -moz-border-radius: 12px/12px 12px 13px 13px;
