@@ -88,48 +88,49 @@
 }
 
 .form_login {
-    width: 274px;
-    height: 26px;
     float: left;
     line-height: 25px;
 }
 
-.form_login input {
+input[type="text"], input[type="password"] {
     width: 108px;
+    height: 14px;
+    padding-left: 4px;
 }
 
 .entrance {
     display: inline-block;
-    float: right;
-    padding: inherit;
-    margin-top: 4px;
-    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    outline: none;
     color: #fff;
     font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
     font-size: 11px;
     border: none;
     background: none;
     cursor: pointer;
+    line-height: 22px;
 }
 
-.entrance:after {
-    width: 2px;
+.border_line {
+    float: left;
     height: 10px;
-    display: inline-block;
-    content: "";
-    vertical-align: top;
-    margin-top: 6px;
-    margin-left: 4px;
-    background-color: #fff;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    border-left: 1px solid white;
 }
 
-.regist_button {
-    padding-top: 4px;
+.regist_button a {
+    float: left;
+    display: inline-block;
+    line-height: 10px;
 }
 
 .regist {
-    padding-right: 17px;
-    padding-left: 3px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 18px;
     color: #fff;
     font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
     font-size: 11px;
@@ -137,6 +138,7 @@
 }
 
 .forgot {
+    padding-top: 8px;
     font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
     font-size: 11px;
     color: #bfbfbf;
@@ -242,22 +244,23 @@
     float: left;
     width: 187px;
     height: auto;
-    margin-top: 18px;
+    margin-top: 163px;
 }
 
 .catalog_left {
     width: 173px;
-    height: px;
-    padding: 8px 8px 0 8px;
+    padding-top: 8px;
+    padding-left: 8px;
     color: #114165;
-    font-size: 13px;
+    font-size: 12px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
     line-height: 13px;
 }
 
 .catalog {
-    width: 187px;
+    width: 179px;
     height: 25px;
+    margin-left: -1px;
     -webkit-border-radius: 12px/12px 12px 13px 13px;
     -moz-border-radius: 12px/12px 12px 13px 13px;
     border-radius: 12px/12px 12px 13px 13px;
@@ -271,8 +274,8 @@
 .img_menu1 {
     float: left;
     padding-top: 1px;
-    padding-right: 6px;
-    padding-left: 3px;
+    padding-right: 4px;
+    padding-left: 2px;
 }
 
 .tyres_menu {
@@ -287,14 +290,15 @@
 
 .left_tyre {
     margin-top: 13px;
+    margin-left: 1px;
 }
 
 .tyre_left {
     padding-top: 9px;
     color: #114165;
-    font-size: 14px;
+    font-size: 13px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
-    line-height: 13px;
+    line-height: 12px;
 }
 
 .img_menu2 {
@@ -306,10 +310,9 @@
 
 .tyre_name {
     height: 14px;
-    padding-top: 1px;
-    padding-left: 10px;
-    margin-top: 5px;
-    margin-left: 34px;
+    padding-left: 7px;
+    margin-top: 1px;
+    margin-left: 27px;
 }
 
 .tyre_name li a {
@@ -319,6 +322,7 @@
     color: #465961;
     font-size: 12px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    line-height: 25px;
 }
 
 .tyre_name li a:hover {
@@ -333,11 +337,10 @@
 
 .tyre_name li {
     background: url(../img/marker.png) no-repeat 0 4px;
-    line-height: 20px;
 }
 
 .left_wheel {
-    margin-top: 65px;
+    margin-top: 83px;
 }
 
 .wheels_menu {
@@ -367,15 +370,14 @@
 
 .wheel_name {
     height: 14px;
-    padding-top: 1px;
-    padding-left: 10px;
-    margin-top: 5px;
-    margin-left: 34px;
+    padding-left: 8px;
+    margin-top: 1px;
+    margin-left: 28px;
 }
 
 .wheel_name li {
     background: url(../img/marker.png) no-repeat 0 4px;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 .wheel_name li a {
@@ -398,7 +400,8 @@
 }
 
 .left_bolt {
-    margin-top: 65px;
+    margin-top: 83px;
+    margin-left: -1px;
 }
 
 .boltes_menu {
@@ -428,15 +431,14 @@
 
 .bolt_name {
     height: 14px;
-    padding-top: 1px;
-    padding-left: 10px;
-    margin-top: 5px;
-    margin-left: 34px;
+    padding-left: 3px;
+    margin-top: 4px;
+    margin-left: 33px;
 }
 
 .bolt_name li {
     background: url(../img/marker.png) no-repeat 0 4px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .bolt_name li a {
@@ -444,7 +446,7 @@
     padding-left: 10px;
     text-decoration: none;
     color: #465961;
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
 }
 
@@ -462,9 +464,8 @@ main {
     width: 526px;
     height: 627px;
     float: left;
-    margin-top: 18px;
-    margin-right: 9px;
-    margin-left: 9px;
+    margin-top: 160px;
+    margin-left: 4px;
     -webkit-border-radius: 3px/2px 2px 3px 3px;
     -moz-border-radius: 3px/2px 2px 3px 3px;
     border-radius: 3px/2px 2px 3px 3px;
@@ -481,16 +482,16 @@ main {
 }
 
 .second_choice {
-    padding-top: 25px;
+    padding-top: 21px;
 }
 
 .third_choice {
-    padding-top: 29px;
+    padding-top: 23px;
 }
 
 h4 {
     color: #206988;
-    font-size: 16px;
+    font-size: 17px;
     font-style: 'Lucida Sans Unicode', Arial, Tahoma, sans-serif;
     text-align: center;
 }
@@ -545,7 +546,7 @@ h4 {
 .price {
     margin: 5px 1px 0 14px;
     color: #114165;
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic;
     font-weight: bold;
     font-family: Arial, Tahoma, sans-serif;
@@ -553,10 +554,10 @@ h4 {
 }
 
 .right_menu {
-    width: 176px;
+    width: 182px;
     float: right;
     height: auto;
-    margin-top: 18px;
+    margin-top: 161px;
 }
 
 .brand_menu {
@@ -583,10 +584,11 @@ h4 {
 .right_check {
     display: block;
     margin-top: 13px;
+    margin-left: 11px;
 }
 
 .tyres_menu2 {
-    width: 148px;
+    width: 136px;
     height: 27px;
     margin-top: 13px;
     -webkit-border-radius: 11px/13px;
@@ -597,25 +599,25 @@ h4 {
 }
 
 .tyre_right {
-    padding-top: 9px;
+    padding-top: 10px;
     color: #114165;
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
-    line-height: 13px;
+    line-height: 11px;
 }
 
 .tyre_menu_check {
-    margin-top: 5px;
+    margin-top: -2px;
+    margin-left: 1px;
 }
 
 .tyre_check {
-    position: relative;
     display: block;
-    height: 15px;
-    padding-left: 16px;
+    height: 17px;
+    padding-left: 11px;
     padding-top: 8px;
     color: #465961;
-    font-size: 13px;
+    font-size: 12px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
 }
 
@@ -630,9 +632,9 @@ input[type="checkbox"] {
 }
 
 .right_wheel {
-    width: 148px;
+    width: 137px;
     height: 27px;
-    margin-top: 15px;
+    margin-top: 13px;
     -webkit-border-radius: 11px/13px;
     -moz-border-radius: 11px/13px;
     border-radius: 11px/13px;
@@ -641,22 +643,23 @@ input[type="checkbox"] {
 }
 
 .wheel_right {
-    padding-top: 8px;
+    padding-top: 7px;
+    padding-left: 4px;
     color: #114165;
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Lucida Sans Unicode", Arial, sans-serif;
     line-height: 13px;
 }
 
 .wheel_menu_check {
-    margin-top: 5px;
+    margin-top: -2px;
 }
 
 .search_button {
     width: 80px;
-    height: 24px;
+    height: 25px;
     margin-top: 20px;
-    margin-left: 16px;
+    margin-left: 12px;
     color: #e5e9ea;
     font-size: 11px;
     font-family: Arial, Tahoma, sans-serif;
@@ -734,12 +737,12 @@ footer {
 
 .footer_menu ul li {
     display: inline-block;
-    padding-right: 11px;
+    padding-right: 5px;
 }
 
 .footer_menu span {
     color: #bec6c9;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 .footer_menu a {
