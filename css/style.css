@@ -104,7 +104,7 @@ input[type="text"], input[type="password"] {
     padding-right: 4px;
     outline: none;
     color: #fff;
-    font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     font-size: 11px;
     border: none;
     background: none;
@@ -132,14 +132,14 @@ input[type="text"], input[type="password"] {
     padding-left: 5px;
     padding-right: 18px;
     color: #fff;
-    font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     font-size: 11px;
     text-decoration: none;
 }
 
 .forgot {
     padding-top: 8px;
-    font-family: "Lucida Sans Unicode", Tahoma, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     font-size: 11px;
     color: #bfbfbf;
 }
@@ -183,7 +183,7 @@ input[type="text"], input[type="password"] {
     padding-left: 11px;
     padding-right: 12px;
     color: #939c9f;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     font-size: 14px;
     text-decoration: none;
 }
@@ -253,7 +253,7 @@ input[type="text"], input[type="password"] {
     padding-left: 8px;
     color: #114165;
     font-size: 12px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 13px;
 }
 
@@ -297,7 +297,7 @@ input[type="text"], input[type="password"] {
     padding-top: 9px;
     color: #114165;
     font-size: 13px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 12px;
 }
 
@@ -321,13 +321,13 @@ input[type="text"], input[type="password"] {
     text-decoration: none;
     color: #465961;
     font-size: 12px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 25px;
 }
 
 .tyre_name li a:hover {
     font-size: 14px;
-    font-family: Arial, Tahoma< sans-serif;
+    font-family: Arial, Tahoma, sans-serif;
     font-weight: bold;
     font-style: italic;
     background: url(../img/marker-hover.png) no-repeat 0 5px;
@@ -357,7 +357,7 @@ input[type="text"], input[type="password"] {
     padding-top: 8px;
     color: #114165;
     font-size: 14px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 13px;
 }
 
@@ -386,12 +386,12 @@ input[type="text"], input[type="password"] {
     text-decoration: none;
     color: #465961;
     font-size: 12px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
 }
 
 .wheel_name li a:hover {
     font-size: 14px;
-    font-family: Arial, Tahoma< sans-serif;
+    font-family: Arial, Tahoma, sans-serif;
     font-weight: bold;
     font-style: italic;
     background: url(../img/marker-hover.png) no-repeat 0 5px;
@@ -418,7 +418,7 @@ input[type="text"], input[type="password"] {
     padding-top: 8px;
     color: #114165;
     font-size: 14px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 13px;
 }
 
@@ -447,12 +447,12 @@ input[type="text"], input[type="password"] {
     text-decoration: none;
     color: #465961;
     font-size: 13px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
 }
 
 .bolt_name li a:hover {
     font-size: 14px;
-    font-family: Arial, Tahoma< sans-serif;
+    font-family: Arial, Tahoma, sans-serif;
     font-weight: bold;
     font-style: italic;
     background: url(../img/marker-hover.png) no-repeat 0 5px;
@@ -492,13 +492,13 @@ main {
 h4 {
     color: #206988;
     font-size: 17px;
-    font-style: 'Lucida Sans Unicode', Arial, Tahoma, sans-serif;
+    font-style: 'Lucida Sans Unicode', Tahoma, sans-serif;
     text-align: center;
 }
 
 .name_model {
     color: #1f2528;
-    font-style: "Lucida Sans Unicode", Arial, Tahoma, sans-serif;
+    font-style: 'Lucida Sans Unicode', Tahoma, sans-serif;
     font-size: 14px;
     text-align: center;
 }
@@ -577,7 +577,7 @@ h4 {
     padding-left: 6px;
     color: #0c3256;
     font-size: 14px;
-    font-family: "Lucida Sans Unicode", Arial, Tahoma, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 13px;
 }
 
@@ -602,7 +602,7 @@ h4 {
     padding-top: 10px;
     color: #114165;
     font-size: 15px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 11px;
 }
 
@@ -618,7 +618,7 @@ h4 {
     padding-top: 8px;
     color: #465961;
     font-size: 12px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
 }
 
 .tyre_check input {
@@ -647,7 +647,7 @@ input[type="checkbox"] {
     padding-left: 4px;
     color: #114165;
     font-size: 17px;
-    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: 'Lucida Sans Unicode', Tahoma, sans-serif;
     line-height: 13px;
 }
 
